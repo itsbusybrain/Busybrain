@@ -1,0 +1,89 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+    overflow-x: hidden;
+}
+nav{
+    display: flex;
+    background-color: rgba(9, 91, 245, 0.918);
+    padding: 5px;
+    align-items: center;
+    color: rgb(0, 225, 255);
+}
+.logo img{
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+nav ul li{
+    margin: 5px 5px 5px 5px;
+    /*margin-top: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 10px;*/
+    
+}
+nav ul li a{
+    font-size: 18px;
+    color: beige;
+    text-decoration: none;
+    padding: 30px;
+}
+nav ul li a:hover{
+text-decoration: none;
+text-decoration-color: yellow;
+text-shadow: 3px 4px 5px green;
+}
+.banner{
+background-image: url('image/logo.JPG');
+height: 100vh;
+width: 100vw;
+background-size: cover;
+position: absolute
+}
+
+.bannercaption{
+    text-align: center;
+    margin: 8% 15%;
+     padding-top: -10px;
+}
+.bannercaption h1{
+    font-size: 70px;
+    color: whitesmoke;
+    background-color: rgba(0, 255, 255, 0.253);
+    margin-bottom: 0%;
+    border-radius: 5px;
+ 
+}
+.text-crest{
+    color: rgb(0, 80, 80);
+    background-color: rgba(245, 245, 245, 0.247);
+    border-radius: 5px;
+}
+.bannercaption p{ 
+    font-size: 30px;
+    background-color: beige transparent;
+}
+.bannerbtn{
+display: flex;
+justify-content: center;
+}
+.btn1{
+    color: blue;
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+.btn2{
+    color: white;
+    background-color: blue;
+    padding: 15px;
+    border-radius: 20px;
+}
